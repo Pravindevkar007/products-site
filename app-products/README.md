@@ -25,6 +25,6 @@ You need the following things properly on your computer
 
 ## Running / Development
  
-- yarn start
-- Visit your app at [http://localhost:3000](http://localhost:3000).
+- yarn dev
+- Visit your app at [http://localhost:5173](http://localhost:5173).
 
