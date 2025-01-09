@@ -1,0 +1,11 @@
+.section {
+  // padding: 20px;
+  // padding-top: 50px;
+  text-align: center;
+}
+
+.carousel-image {
+  max-height: 40rem; // Adjust height as needed
+  object-fit: cover; // Ensures images maintain aspect ratio
+  width: 100%;
+}
