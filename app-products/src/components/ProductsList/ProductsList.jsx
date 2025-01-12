@@ -13,8 +13,8 @@ const ProductsList = () => {
   if (!category) return <p>Category not found</p>;
 
   return (
-    <section className="mid-section section">
-      <h2>{category.name}</h2>
+    <section className="mid-section">
+      <h4 className="pb-4">{category.name}</h4>
       <Row>
         {category.products.map((product) => (
           <Col key={product.id} md={3}>
