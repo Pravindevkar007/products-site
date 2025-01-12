@@ -3,9 +3,12 @@ import { useTranslation } from "react-i18next";
 import Header from "@/components/Header/Header";
 import HomeSection from "@/components/HomeSection/HomeSection";
 import CategoriesSection from "@/components/CategoriesSection/CategoriesSection";
-import CountriesSection from "@/components/CountriesSection.jsx/CountriesSection";
+import CountriesSection from "@/components/CountriesSection/CountriesSection";
 import ContactSection from "@/components/ContactSection/ContactSection";
 import Footer from "@/components/Footer/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import CategoriesProvider from "@/context/CategoriesContext";
+import ProductsList from "@/components/ProductsList/ProductsList";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -16,16 +19,23 @@ function App() {
 
   return (
     <>
-      <div className="App">
-        <Header />
-        <main>
-          <HomeSection />
-          <CategoriesSection />
-          <CountriesSection />
-          <ContactSection />
-        </main>
-        <Footer />
-      </div>
+      <CategoriesProvider>
+        <Router>
+          <div className="App">
+            <Header />
+            <main>
+              <Routes>
+                <Route path="/" element={<HomeSection />} />
+                <Route path="/categories" element={<CategoriesSection />} />
+                <Route path="/category/:id" element={<ProductsList />} />
+                <Route path="/countries" element={<CountriesSection />} />
+                <Route path="/contact" element={<ContactSection />} />
+              </Routes>
+            </main>
+            <Footer />
+          </div>
+        </Router>
+      </CategoriesProvider>
       {/* <div className="App">
         <h1>{t("greeting")}</h1>
         <p>{t("welcome_message")}</p>

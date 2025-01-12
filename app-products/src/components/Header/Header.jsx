@@ -3,34 +3,30 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "@/assets/Header/logo.jpg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  };
-
   return (
     <Navbar bg="light" data-bs-theme="light" fixed="top">
       <Container>
-        <Navbar.Brand href="#home" onClick={() => scrollToSection("home")}>
+        <Navbar.Brand as={Link} to="/">
           <img
             src={logo}
             alt="Logo"
-            style={{ height: "40px", width: "auto" }} // Adjust the size as needed.
+            style={{ height: "40px", width: "auto" }}
           />
         </Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link onClick={() => scrollToSection("home")}>Home</Nav.Link>
-          <Nav.Link onClick={() => scrollToSection("categories")}>
+          <Nav.Link as={Link} to="/">
+            Home
+          </Nav.Link>
+          <Nav.Link as={Link} to="/categories">
             Product Categories
           </Nav.Link>
-          <Nav.Link onClick={() => scrollToSection("countries")}>
+          <Nav.Link as={Link} to="/countries">
             Countries
           </Nav.Link>
-          <Nav.Link onClick={() => scrollToSection("contact")}>
+          <Nav.Link as={Link} to="/contact">
             Contact Us
           </Nav.Link>
         </Nav>

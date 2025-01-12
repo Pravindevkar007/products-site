@@ -2,8 +2,8 @@ import React from "react";
 
 const CountriesSection = () => {
   return (
-    <section id="countries" className="section">
-      <h1>Countries</h1>
+    <section id="countries" className="mid-section">
+      <h4 className="pb-4">Countries</h4>
       <img
         src="https://via.placeholder.com/800x400"
         alt="Countries"

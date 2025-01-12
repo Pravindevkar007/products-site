@@ -2,7 +2,7 @@ import React from "react";
 import clsx from "clsx";
 import classes from "@/components/ProductCard/ProductCard.module.scss"; // Optional SCSS styling
 
-const ProductCard = ({ image, title, count, onClick }) => {
+const ProductCard = ({ image, title, count, buttonText, onClick }) => {
   return (
     <div className={clsx(classes["card"])}>
       <img
@@ -20,7 +20,7 @@ const ProductCard = ({ image, title, count, onClick }) => {
           onClick={onClick}
           className={clsx("btn", classes["card-button"], "mb-4")}
         >
-          More Details
+          {buttonText}
         </button>
       </div>
     </div>
