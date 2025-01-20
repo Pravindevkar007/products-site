@@ -22,7 +22,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Apple powder",
           description:
             "Lactobacillus fermentum is a gram-positive bacterium, belonging to the Lactobacillus genus. It is commonly found in certain fermenting plant and animal-based materials. This Lactobacillus fermentum powder is basically a free-flowing, white to light-yellow coloured powder. It is known to aid urogenital infections in women.",
-          image: product1,
+          image: [product1, product2, product3],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -32,7 +32,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Apple powder",
           description:
             "Lactobacillus fermentum is a gram-positive bacterium, belonging to the Lactobacillus genus. It is commonly found in certain fermenting plant and animal-based materials. This Lactobacillus fermentum powder is basically a free-flowing, white to light-yellow coloured powder. It is known to aid urogenital infections in women.",
-          image: product1,
+          image: [product2, product3, product4],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -42,7 +42,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Apple powder",
           description:
             "Lactobacillus fermentum is a gram-positive bacterium, belonging to the Lactobacillus genus. It is commonly found in certain fermenting plant and animal-based materials. This Lactobacillus fermentum powder is basically a free-flowing, white to light-yellow coloured powder. It is known to aid urogenital infections in women.",
-          image: product1,
+          image: [product3, product4, product1],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -52,7 +52,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Apple powder",
           description:
             "Lactobacillus fermentum is a gram-positive bacterium, belonging to the Lactobacillus genus. It is commonly found in certain fermenting plant and animal-based materials. This Lactobacillus fermentum powder is basically a free-flowing, white to light-yellow coloured powder. It is known to aid urogenital infections in women.",
-          image: product1,
+          image: [product4, product2, product3],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -62,7 +62,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Apple powder",
           description:
             "Lactobacillus fermentum is a gram-positive bacterium, belonging to the Lactobacillus genus. It is commonly found in certain fermenting plant and animal-based materials. This Lactobacillus fermentum powder is basically a free-flowing, white to light-yellow coloured powder. It is known to aid urogenital infections in women.",
-          image: product1,
+          image: [product3, product2, product3],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -82,7 +82,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Fruits",
           description:
             " It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product2,
+          image: [product2, product3, product4],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -92,7 +92,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Fruits",
           description:
             " It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product2,
+          image: [product2, product3, product4],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -102,7 +102,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Fruits",
           description:
             " It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product2,
+          image: [product2, product3, product4],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -112,7 +112,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Fruits",
           description:
             " It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product2,
+          image: [product2, product3, product4],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -122,7 +122,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Fruits",
           description:
             " It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product2,
+          image: [product2, product3, product4],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -142,7 +142,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Grains",
           description:
             " It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product3,
+          image: [product3, product2, product4],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -152,7 +152,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Grains",
           description:
             " It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product3,
+          image: [product3, product2, product4],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -162,7 +162,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Grains",
           description:
             " It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product3,
+          image: [product3, product2, product4],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -172,7 +172,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Grains",
           description:
             " It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product3,
+          image: [product3, product2, product4],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -182,7 +182,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Grains",
           description:
             " It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product3,
+          image: [product3, product2, product4],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -202,7 +202,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Dairy",
           description:
             " It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product4,
+          image: [product4, product3, product2],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -212,7 +212,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Dairy",
           description:
             " It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product4,
+          image: [product4, product3, product2],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -222,7 +222,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Dairy",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product4,
+          image: [product4, product3, product2],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -232,7 +232,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Dairy",
           description:
             " It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product4,
+          image: [product4, product3, product2],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -242,7 +242,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Dairy",
           description:
             " It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product4,
+          image: [product4, product3, product2],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -265,7 +265,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Honey",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product1,
+          image: [product1, product2, product3],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -275,7 +275,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Honey",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product1,
+          image: [product2, product2, product3],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -285,7 +285,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Honey",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product1,
+          image: [product3, product2, product3],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -295,7 +295,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Honey",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product1,
+          image: [product4, product2, product3],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -305,7 +305,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Honey",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product1,
+          image: [product3, product2, product3],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -325,7 +325,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Tea & Coffee",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product2,
+          image: [product2, product3, product4],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -335,7 +335,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Tea & Coffee",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product2,
+          image: [product2, product3, product4],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -345,7 +345,8 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Tea & Coffee",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product2,
+          image: [product2, product3, product4],
+          potency: "5 billion – 100 billion CFU/g",
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -355,7 +356,8 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Tea & Coffee",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product2,
+          image: [product2, product3, product4],
+          potency: "5 billion – 100 billion CFU/g",
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -365,7 +367,8 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Tea & Coffee",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product2,
+          image: [product2, product3, product4],
+          potency: "5 billion – 100 billion CFU/g",
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -385,7 +388,8 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Snacks",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product3,
+          image: [product3, product2, product1],
+          potency: "5 billion – 100 billion CFU/g",
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -395,7 +399,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Snacks",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product3,
+          image: [product3, product2, product1],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -405,7 +409,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Snacks",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product3,
+          image: [product3, product2, product1],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -415,7 +419,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Snacks",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product3,
+          image: [product3, product2, product1],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -425,7 +429,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Snacks",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product3,
+          image: [product3, product2, product1],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -445,7 +449,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Beauty Products",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product4,
+          image: [product4, product2, product1],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -455,7 +459,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Beauty Products",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product4,
+          image: [product4, product2, product1],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -465,7 +469,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Beauty Products",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product4,
+          image: [product4, product2, product1],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -475,7 +479,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Beauty Products",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product4,
+          image: [product4, product2, product1],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -485,7 +489,7 @@ const CategoriesProvider = ({ children }) => {
           name: "Organic Beauty Products",
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
-          image: product4,
+          image: [product4, product2, product1],
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",

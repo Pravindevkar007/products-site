@@ -32,7 +32,7 @@ const ProductsList = () => {
         {category.products.map((product) => (
           <Col key={product.id} md={3}>
             <ProductCard
-              image={product.image}
+              image={product.image[0]}
               title={product.name}
               buttonText="Product details"
               onClick={() => navigate(`/product/${product.id}`)}
