@@ -347,7 +347,6 @@ const CategoriesProvider = ({ children }) => {
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
           image: [product2, product3, product4],
           potency: "5 billion – 100 billion CFU/g",
-          potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
         },
@@ -358,7 +357,6 @@ const CategoriesProvider = ({ children }) => {
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
           image: [product2, product3, product4],
           potency: "5 billion – 100 billion CFU/g",
-          potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
         },
@@ -368,7 +366,6 @@ const CategoriesProvider = ({ children }) => {
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
           image: [product2, product3, product4],
-          potency: "5 billion – 100 billion CFU/g",
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
@@ -389,7 +386,6 @@ const CategoriesProvider = ({ children }) => {
           description:
             "It aids weight management by keeping you satiated for a longer time and preventing hunger pangs that often otherwise lead to unhealthy snacking. It is good for type 2 diabetic patients as it reduces blood sugar levels in the bodies.",
           image: [product3, product2, product1],
-          potency: "5 billion – 100 billion CFU/g",
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",

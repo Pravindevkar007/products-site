@@ -1,7 +1,16 @@
 .section {
-  // padding: 20px;
-  // padding-top: 50px;
   text-align: center;
+}
+
+.animated-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 2.5s ease, transform 2.5s ease;
+
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .carousel-image {
