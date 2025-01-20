@@ -5,13 +5,9 @@
   text-align: center;
 }
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
 main {
-  margin-top: 60px; /* Adjust to match Header height */
+  margin-top: 60px;
+  /* Adjust to match Header height */
 }
 
 .section {
@@ -26,9 +22,30 @@ main {
   border-radius: 4px;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* Full viewport height */
+}
+
+.content {
+  flex: 1;
+  /* This pushes the footer to the bottom */
+}
+
 .footer {
+  background-color: #f8f9fa;
+  color: black;
   text-align: center;
-  padding: 20px;
-  background: #f8f9fa;
-  margin-top: 20px;
+  padding: 10px;
+  font-size: 14px;
 }

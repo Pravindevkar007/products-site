@@ -9,6 +9,7 @@ import Footer from "@/components/Footer/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CategoriesProvider from "@/context/CategoriesContext";
 import ProductsList from "@/components/ProductsList/ProductsList";
+import ProductDetails from "@/components/ProductDetails/ProductDetails";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -21,13 +22,14 @@ function App() {
     <>
       <CategoriesProvider>
         <Router>
-          <div className="App">
+          <div className="app-container">
             <Header />
-            <main>
+            <main className="content" >
               <Routes>
                 <Route path="/" element={<HomeSection />} />
                 <Route path="/categories" element={<CategoriesSection />} />
                 <Route path="/category/:id" element={<ProductsList />} />
+                <Route path="/product/:productId" element={<ProductDetails />} />
                 <Route path="/countries" element={<CountriesSection />} />
                 <Route path="/contact" element={<ContactSection />} />
               </Routes>
