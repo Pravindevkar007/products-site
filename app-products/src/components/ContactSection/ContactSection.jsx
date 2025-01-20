@@ -139,7 +139,7 @@ const ContactSection = () => {
               variant="primary"
               type="submit"
               className="btn "
-              style={{ backgroundColor: "#e65f38" }}
+              style={{ backgroundColor: "#e65f387d" }}
             >
               Send Message
             </button>
