@@ -26,6 +26,14 @@ const CategoriesProvider = ({ children }) => {
           potency: "5 billion – 100 billion CFU/g",
           source: "Vegetables",
           packaging: "1 kg & 2 kg aluminum foil bags.",
+          specification: [
+            {form : "Hello" , ingredients:"Fresh Garlic",size :"Granules : 0.5mm-1mm", color_taste_aroma : "White, Typical og gralic"}
+          ],
+          additionalInfo : [
+            { key: "Dietary Supplements", value: "Leverage Organic Triphala Powder in dietary supplements three nutrient-rich fruits." },
+            { key: "Functional Food", value: "Investigate the use of Organic Triphala Powder in functional foods and beverages designed" },
+            { key: "Nutraceutical Industry", value: "Leverage Organic Triphala Powder in products focused on natural wellness and holistic health" }
+          ]
         },
         {
           id: 102,
