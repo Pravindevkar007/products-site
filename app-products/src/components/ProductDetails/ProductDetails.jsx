@@ -198,6 +198,11 @@ const ProductDetails = () => {
               </tbody>
             </table>
           </div>
+          <div className="d-flex ps-2" >
+            <button className={clsx("btn", classes["button"], "mb-4")}>
+              Get Price Quote
+            </button>
+          </div>
         </div>
       </div>
       {/* Thumbnails of Other Images */}
